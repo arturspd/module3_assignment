@@ -1,6 +1,6 @@
 body {
-        background-color: #F0F8FF;
-    }
+  background-color: #F0F8FF;
+}
 
 /** HEADER **/
 #header-nav {
@@ -9,10 +9,15 @@ body {
   border: 0;
 }
 
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #DEB887;
-  font-size: 2em;
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Raleway', serif;
+  color: #D2691E;
+  font-size: 1.5em;
+  font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
@@ -26,8 +31,9 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
-  text-align: center;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5em;
 }
 #nav-list a:hover {
   background: #E7E7E7;
@@ -37,9 +43,42 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #98FB98;
 }
 .navbar-header button.navbar-toggle {
+  margin-top: -42px;
   clear: both;
-  margin-top: -30px;
+}
+/* END HEADER */
+
+/* BODY */
+
+.box {
+      width: 97%;
+      height: auto;
+      padding: 5px auto;
+      margin: 1%;
+      background-color: #98FB98;
+    }
+
+h1 {
+  font-size: 3em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: lighter;
+}
+
+.row {
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  display: block;
+  text-align: justify;
 }
